@@ -13,7 +13,7 @@ from reportlab.pdfgen import canvas
 
 load_dotenv()
 #id do assistente
-assistant_id = "asst_519rR4UyOVXn2Epn8qR7RSa8"
+assistant_id = "asst_dIVBceyc4iXu6q4LzM7bmuXk"
 
 # inicializa cliente openai
 client = openai
@@ -122,7 +122,7 @@ def process_message_with_citations(message):
     return full_response
 
 # Interface do chat
-st.subheader("Análise de Produtos")
+st.subheader("Análise de Itens")
 #st.write("Este chat usa a API da OpenAI para gerar respostas.")
 
 # Só vai mostrar o chat se for iniciado

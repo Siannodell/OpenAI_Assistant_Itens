@@ -11,7 +11,7 @@ primaryColor = "#f1a752" # green
 secondaryBackgroundColor =  "#efe1ff" # grey
 
 # Font color for the page.
-textColor = "#000000" # black
+textColor = "#ffffff" # black
 
 # Font family (serif | sans serif | mono) for the page. Will not impact code areas.
 # Default: "sans serif"

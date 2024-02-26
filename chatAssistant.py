@@ -86,7 +86,8 @@ if st.session_state.file_id_list:
             file_id=file_id
         )
 
-st.sidebar.write("<a>Ver sugestões de perguntas</a>")
+st.sidebar.write("<a>Ver sugestões de perguntas </a>")
+
 # Botão para iniciar o chat
 if st.sidebar.button("Iniciar chat"):
     # Verifica se o arquivo foi upado antes de iniciar

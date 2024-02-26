@@ -60,7 +60,6 @@ if api_key:
 
 st.sidebar.write("<a style='color:white'  href='https://tecnologia2.chleba.net/_ftp/chatgpt/BotasVentoItensPedidos.xlsx' id='baixarArquivo'>[Baixe o arquivo para fazer a análise]</a>", unsafe_allow_html=True)
 
-st.sidebar.write("<a>Ver sugestões de perguntas </a>")
 
 uploaded_file = st.sidebar.file_uploader("Envie um arquivo", key="file_uploader")
 
@@ -99,6 +98,9 @@ if st.sidebar.button("Iniciar chat"):
         st.write("id da thread: ", thread.id)
     else:
         st.sidebar.warning("Por favor, selecione pelo menos um arquivo para iniciar o chat")
+
+
+st.sidebar.write("<a>Ver sugestões de perguntas </a>")
 
 # Define a função para iniciar
 def process_message_with_citations(message):

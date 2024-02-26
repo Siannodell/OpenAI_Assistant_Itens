@@ -100,6 +100,7 @@ if st.sidebar.button("Iniciar chat"):
         st.sidebar.warning("Por favor, selecione pelo menos um arquivo para iniciar o chat")
 
 st.sidebar.write("<a href='#' id='open' onclick='openQuestions()'>Ver sugestões de perguntas </a>", unsafe_allow_html=True)
+
 # Define your javascript
 my_js = """
 alert("Hola mundo");
@@ -107,6 +108,9 @@ alert("Hola mundo");
 
 # Wrapt the javascript as html code
 my_html = f"<script>{my_js}</script>"
+
+html(my_html)
+
 # Define a função para iniciar
 def process_message_with_citations(message):
     """Extract content and annotations from the message and format citations as footnotes."""

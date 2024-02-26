@@ -5,6 +5,7 @@ import requests
 import pdfkit
 import time
 import os
+import html
 from dotenv import load_dotenv
 from openpyxl import load_workbook
 from reportlab.lib.pagesizes import letter

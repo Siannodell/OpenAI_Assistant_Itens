@@ -13,7 +13,6 @@ def main():
 
     st.set_page_config(page_title="Faça uma pergunta ")
     st.header("Faça uma pergunta")
-
     user_csv = st.file_uploader("subir arquivo csv", type="csv")
 
     if user_csv is not None:

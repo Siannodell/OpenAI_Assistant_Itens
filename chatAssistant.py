@@ -100,7 +100,7 @@ if st.sidebar.button("Iniciar chat"):
         st.sidebar.warning("Por favor, selecione pelo menos um arquivo para iniciar o chat")
 
 
-st.sidebar.write("<a>Ver sugestões de perguntas </a>")
+st.sidebar.write("<a href='#' onclick='openQuestions()'>Ver sugestões de perguntas </a>")
 
 # Define a função para iniciar
 def process_message_with_citations(message):

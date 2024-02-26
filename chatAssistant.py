@@ -99,8 +99,9 @@ if st.sidebar.button("Iniciar chat"):
     else:
         st.sidebar.warning("Por favor, selecione pelo menos um arquivo para iniciar o chat")
 
-
-st.sidebar.write("<script>function openQuestions() {alert('teste')}</script>", unsafe_allow_html=True)
+st.markdown(
+"<script>function openQuestions() {alert('teste')}</script>"
+, unsafe_allow_html=True)
 st.sidebar.write("<a href='#' onclick='openQuestions()'>Ver sugestões de perguntas </a>", unsafe_allow_html=True)
 
 # Define a função para iniciar

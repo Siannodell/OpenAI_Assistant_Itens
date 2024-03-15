@@ -37,7 +37,7 @@ if "thread_id" not in st.session_state:
 
 # titulo e icone da página
 # Função para converter XLSX pra PDF
-
+st.sidebar.write('<style>p, ol, ul, dl {font-size:0.9rem}</style>', unsafe_allow_html=True)
 def convert_xlsx_to_json(input_path, output_path) :
     read_file = pd.read_excel(input_path)
 
